@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 5</title>
+    <title>Exercicio 5 - DOM</title>
     <style>
         body {
             background-color: lightgray;
+            font: normal 20px Arial;
         }
+
     </style>
 </head>
 <body>
-     
+     <h1>Iniciando estudos DOM</h1>
+     <p>Aqui vai o resultado</p>
+     <p>Aprendnedo a usar <strong>DOM</strong> em JavaScript</p>
+     <div id="msg">Clique em mim</div>
+     <script>
+        // var d = document.getElementById('msg')
+        // var p1 = document.getElementsByTagName('p')[0]
+        // window.document.write('Está escrito assim: ' + p1.innerText)
+        // d.style.background = 'blue'
+
+        var corpo = window.document.querySelector ('body')
+        var tprincip = document.querySelector('h1')
+        corpo.style.background = 'pink'
+        tprincip.style.font = 'normal 40px Cursive'
+     </script>
 </body>
 </html>

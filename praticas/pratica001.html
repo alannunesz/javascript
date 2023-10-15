@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de nacionalidade</title>
+</head>
+<body>
+    <h1>Será que você é Basileiro?</h1>
+    <label for="inacio">Qual pais você nasceu?</label>
+    <input type="text" name="nacio" id="inacio">
+    <input type="button" value="Enviar" onclick="teste()">
+    <div id="res"></div>
+
+    <script>
+        function teste() {
+            var nac = document.querySelector('#inacio')
+            var res = document.querySelector('#res')
+            var pais = (nac.value)
+            if (pais != 'Brasil') {
+                res.innerHTML = 'Você é Estrangeiro'
+            } else {
+                res.innerHTML = 'Você é Br'
+            }
+
+        }
+    </script>
+</body>
+</html>

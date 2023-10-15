@@ -1,0 +1,36 @@
+* {
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 0px 0px 5px 2px #00000062;
+}
+
+
+#img {
+    margin: auto;
+    width: 250px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+strong {
+    color: rgb(245, 245, 245);
+}

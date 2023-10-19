@@ -1,15 +1,16 @@
-let val = [4,5,6,7]
+let val = [8, 51, 48, 67, 24, 5,6,7]
 
-function soma(s) {
-    let soma = 0
-    for (let pos in val) {
-        if (s != val[pos]) {
-            soma += val[pos]
-        }
+
+function inList(n, l) {
+    if (l.indexOf(Number(n)) != -1) {
+        return true
+    } else {
+        return false
     }
-    return soma
 }
 
-let som = soma(val)
+val.sort(function(a, b){return a-b})
 
-console.log(`Soma: ${som}`)
+console.log(val)
+console.log(`maior valor informado foi ${val[val.length-1]}.`)
+console.log(`O menor valor informado foi ${val[0]}.`)

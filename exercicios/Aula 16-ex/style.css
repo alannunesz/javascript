@@ -11,8 +11,6 @@ header {
     color: white;
 }
 
-
-
 section {
     background-color: white;
     border-radius: 10px;
@@ -25,7 +23,6 @@ section {
 select {
     width: 180px;
 }
-
 
 footer {
     text-align: center;
